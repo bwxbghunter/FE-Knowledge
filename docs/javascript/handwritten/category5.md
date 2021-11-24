@@ -1,0 +1,1 @@
+# 模拟实现数据方法(filter、some、every、reduce、map等)

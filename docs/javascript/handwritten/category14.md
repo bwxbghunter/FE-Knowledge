@@ -1,0 +1,1 @@
+# 实现setInterval模拟setTimeout

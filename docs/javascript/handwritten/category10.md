@@ -1,0 +1,1 @@
+# 模拟实现JSON.strify
