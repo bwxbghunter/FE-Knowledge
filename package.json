@@ -1,0 +1,14 @@
+{
+  "name": "front-end-konwledge",
+  "version": "1.0.0",
+  "description": "前端知识点总结",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --cache .cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
