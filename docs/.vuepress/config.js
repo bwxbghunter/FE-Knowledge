@@ -1,12 +1,13 @@
 module.exports = {
     title: '娜个小部点的前端总结~',
     description: '前端知识点总结',
-    base: '/javascript/',
+    base: '/',
     themeConfig: {
         nav: [
           { text: 'Javascript', link: '/javascript/theory' },
           { text: 'NodeJs', link: '/nodejs/test1' },
           { text: 'Http', link: '/http/' },
+          { text: 'Vue', link: '/vue/issue1' },
         ],
         sidebar: {
             '/javascript/': [
@@ -53,6 +54,9 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [ 'test1', 'test2']
                 }
+            ],
+            '/vue/': [
+                '/vue/issue1'
             ],
             '/http/': [
                 ''
