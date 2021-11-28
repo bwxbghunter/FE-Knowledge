@@ -1,5 +1,5 @@
 module.exports = {
-    title: '娜个小部点的前端总结~',
+    title: '娜个小部的前端总结~',
     description: '前端知识点总结',
     base: '/',
     themeConfig: {
