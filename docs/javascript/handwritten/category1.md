@@ -1,4 +1,4 @@
-# 模拟实现call、apply、bind、new
+# 1、模拟实现call、apply、bind、new
 
 ## 模拟实现call
 

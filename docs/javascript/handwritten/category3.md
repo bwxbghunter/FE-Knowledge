@@ -1,4 +1,4 @@
-# 模拟实现promise
+# 3、模拟实现promise
 
 1. Promise接受一个参数，该参数为一个函数，此函数接收两个参数，分别为resolve, reject
 2. Promise内部会立即执行该函数。

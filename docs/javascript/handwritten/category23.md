@@ -1,4 +1,4 @@
-# 实现compose函数
+# 23、实现compose函数
 
 ```js
 const compose = function(middleware) {

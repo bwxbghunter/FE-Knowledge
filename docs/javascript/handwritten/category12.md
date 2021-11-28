@@ -1,1 +1,1 @@
-# 模拟实现Object.create
+# 12、模拟实现Object.create

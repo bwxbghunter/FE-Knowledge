@@ -1,4 +1,4 @@
-# 模拟实现promise.all及其它方法
+# 4、模拟实现promise.all及其它方法
 
 ## 模拟all方法
 ```js

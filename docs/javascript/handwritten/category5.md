@@ -1,4 +1,4 @@
-# 模拟实现数据方法(filter、some、every、reduce、map等)
+# 5、模拟实现数据方法(filter、some、every、reduce、map等)
 
 ## 模拟filter
 
