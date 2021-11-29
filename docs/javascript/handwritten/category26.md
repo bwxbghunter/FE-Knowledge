@@ -12,6 +12,18 @@ function throttle(fn, wait) {
     }
 }
 
+function throttle1(fn, wait) {
+    let timer = null;
+    return function() {
+        if (!timer) {
+            timer = setTimeout(() => {
+                fn.apply(this, [...arguments]);
+            }, wait);
+            timer = null;
+        }
+    }
+}
+
 function handle() {
     console.log('test')
 }

@@ -42,7 +42,9 @@ module.exports = {
                                 '/javascript/handwritten/category21',
                                 '/javascript/handwritten/category22',
                                 '/javascript/handwritten/category23',
-                                '/javascript/handwritten/category24'
+                                '/javascript/handwritten/category24',
+                                '/javascript/handwritten/category25',
+                                '/javascript/handwritten/category26'
                             ]
                         }
                     ]

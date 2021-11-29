@@ -88,4 +88,22 @@ const arr = [
         name:'abc'
     } 
  ]
+
+function convertTree(arr) {
+    if(!arr || arr.length === 0) {
+        return [];
+    }
+    const roots = arr.filter(item => item.parent_id === 'root');
+    roots.forEach(item => {
+        item.children = arr.filter(val => val.parent_id === item.id);
+        if (item.children) {
+            item.children.forEach(o => {
+                o.children = arr.filter(val => val.parent_id === o.id)
+            })
+        }
+    })
+    return roots;
+}
+
+console.log(convertTree(arr));
 ```
