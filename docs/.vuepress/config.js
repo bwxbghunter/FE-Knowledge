@@ -7,7 +7,7 @@ module.exports = {
           { text: 'Javascript', link: '/javascript/theory' },
           { text: 'NodeJs', link: '/nodejs/test1' },
           { text: 'Http', link: '/http/' },
-          { text: 'Vue', link: '/vue/issue1' },
+          { text: 'Vue', link: '/vue/1' },
         ],
         sidebar: {
             '/javascript/': [
@@ -58,7 +58,7 @@ module.exports = {
                 }
             ],
             '/vue/': [
-                '/vue/issue1'
+                '/vue/1'
             ],
             '/http/': [
                 ''
