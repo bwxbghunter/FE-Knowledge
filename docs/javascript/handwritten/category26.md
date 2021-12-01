@@ -24,6 +24,24 @@ function throttle1(fn, wait) {
     }
 }
 
+function throttleV2(fn, wait) {
+    let start = Date.now();
+    let timer = null;
+    return function() {
+        const current = Date.now();
+        const res = current - start;
+        clearTimeout(timer)
+        if (res >= wait) {
+            fn.apply(this, [...arguments]);
+            start = Date.now();
+        } else {
+            timer = setTimeout(() => {
+                fn.apply(this, [...arguments]);
+            }, wait);
+        }
+    }
+}
+
 function handle() {
     console.log('test')
 }
