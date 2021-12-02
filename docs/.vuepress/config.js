@@ -4,17 +4,24 @@ module.exports = {
     base: '/',
     themeConfig: {
         nav: [
-          { text: 'Javascript', link: '/javascript/theory' },
+          { text: 'Javascript', link: '/javascript/theory/1' },
           { text: 'NodeJs', link: '/nodejs/test1' },
           { text: 'Http', link: '/http/' },
           { text: 'Vue', link: '/vue/1' },
+          { text: 'webpack', link: '/webpack/1' },
         ],
         sidebar: {
             '/javascript/': [
                 {
                     title: 'JavaScript学习',
                     children: [ 
-                        'theory',
+                        {
+                            title: '理论知识',
+                            path: '/javascript/theory/',
+                            children: [
+                                '/javascript/theory/1',
+                            ]
+                        },
                         {
                             title: '手写题',
                             path: '/javascript/handwritten/',
@@ -58,10 +65,19 @@ module.exports = {
                 }
             ],
             '/vue/': [
-                '/vue/1'
+                '/vue/1',
+                '/vue/2470'
             ],
             '/http/': [
                 ''
+            ],
+            '/webpack/': [
+                '/webpack/1',
+                '/webpack/2',
+                '/webpack/3',
+                '/webpack/4',
+                '/webpack/5',
+                '/webpack/6',
             ]
         }
     }
