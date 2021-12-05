@@ -17,9 +17,11 @@ module.exports = {
                     children: [ 
                         {
                             title: '理论知识',
-                            path: '/javascript/theory/',
+                            path: '/javascript/theory/1',
                             children: [
                                 '/javascript/theory/1',
+                                '/javascript/theory/2',
+                                '/javascript/theory/3',
                             ]
                         },
                         {
