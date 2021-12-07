@@ -68,7 +68,7 @@ module.exports = {
             ],
             '/vue/': [
                 '/vue/1',
-                '/vue/2470'
+                '/vue/2'
             ],
             '/http/': [
                 ''
