@@ -5,7 +5,7 @@ module.exports = {
     themeConfig: {
         nav: [
           { text: 'Javascript', link: '/javascript/theory/1' },
-          { text: 'NodeJs', link: '/nodejs/test1' },
+          { text: 'NodeJs', link: '/nodejs/1' },
           { text: 'Http', link: '/http/' },
           { text: 'Vue', link: '/vue/1' },
           { text: 'webpack', link: '/webpack/1' },
@@ -63,12 +63,13 @@ module.exports = {
                 {
                     title: 'NodeJs学习',
                     sidebarDepth: 2,
-                    children: [ 'test1', 'test2']
+                    children: [ '1', 'test2']
                 }
             ],
             '/vue/': [
                 '/vue/1',
-                '/vue/2'
+                '/vue/2',
+                '/vue/3'
             ],
             '/http/': [
                 ''
