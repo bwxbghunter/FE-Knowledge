@@ -74,12 +74,7 @@ module.exports = {
                 ''
             ],
             '/webpack/': [
-                '/webpack/1',
-                '/webpack/2',
-                '/webpack/3',
-                '/webpack/4',
-                '/webpack/5',
-                '/webpack/6',
+                '/webpack/1'
             ]
         }
     }
